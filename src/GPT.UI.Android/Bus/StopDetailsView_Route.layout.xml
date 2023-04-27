@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginHorizontal="@dimen/m-5"
+    android:layout_marginVertical="2dp"
+    android:paddingHorizontal="4dp">
+<!--
+    <ImageView
+        android:src="@android:drawable/ic_input_add"
+        android:layout_gravity="center_vertical"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+    />-->
+
+    <TextView
+        android:id="@+id/textView"
+        android:textSize="@dimen/text-2xl"
+        android:gravity="center_vertical"
+        android:paddingVertical="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="TEST"
+    />
+
+<!--
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?attr/materialCardViewFilledStyle">
+
+        <TextView
+            android:id="@+id/textView"
+            android:textSize="@dimen/text-2xl"
+            android:gravity="center_vertical"
+            android:paddingVertical="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="TEST"
+        />
+    </com.google.android.material.card.MaterialCardView>-->
+</LinearLayout>

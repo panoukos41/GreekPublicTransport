@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>GPT</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ardalis.SmartEnum" Version="7.0.0" />
+    <PackageReference Include="Dunet" Version="1.7.1" PrivateAssets="all" />
+    <PackageReference Include="FluentValidation" Version="11.5.2" />
+    <PackageReference Include="OneOf" Version="3.0.243" />
+    <PackageReference Include="StronglyTypedId" Version="1.0.0-beta06" PrivateAssets="all" />
+    <PackageReference Include="System.Reactive" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>

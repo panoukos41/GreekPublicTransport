@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>GPT</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Jab" Version="0.8.6" PrivateAssets="All" />
+    <PackageReference Include="P41.Navigation" Version="1.6.0-beta.1" />
+    <PackageReference Include="ReactiveUI.Fody" Version="18.4.34" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GPT.Infra\GPT.Infra.csproj" />
+  </ItemGroup>
+
+</Project>

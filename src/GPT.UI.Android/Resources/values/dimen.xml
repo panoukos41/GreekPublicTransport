@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Margins -->
+    <dimen name="m-5">5dp</dimen>
+    
+    <!-- Text Sizes -->
+    <dimen name="text-xs">16sp</dimen>
+    <dimen name="text-sm">18sp</dimen>
+    <dimen name="text">20sp</dimen>
+    <dimen name="text-lg">22sp</dimen>
+    <dimen name="text-xl">24sp</dimen>
+    <dimen name="text-2xl">26sp</dimen>
+    <dimen name="text-3xl">30sp</dimen>
+    <dimen name="text-4xl">38sp</dimen>
+    
+    <!-- Shell values -->
+    <dimen name="shell_toolbar_h">0dp</dimen>
+    <dimen name="shell_bottombar_h">80dp</dimen>
+</resources>

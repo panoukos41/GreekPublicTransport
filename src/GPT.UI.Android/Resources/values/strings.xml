@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GPT.UI.Android</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="StartPoint">Start Point:</string>
+    <string name="EndPoint">End Point:</string>
+    <string name="DarkTheme">Dark Theme</string>
+    <string name="Language">Language:</string>
+    <string name="routes">ROUTES</string>
+    <string name="departures">DEPARTURES</string>
+    <string name="general">GENERAL</string>
+    <string name="about">ABOUT</string>
+    <string name="changelog">CHANGELOG</string>
+    <string name="lines">LINES</string>
+    <string name="map">MAP</string>
+    <string name="stops">STOPS</string>
+    <string name="SearchHint">Search...</string>
+    <string name="Home">Home</string>
+    <string name="OasaNews">Oasa News</string>
+    <string name="StrikeCalendar">Strike Calendar</string>
+    <string name="ClearCache">Clear Cache</string>
+    <string name="Feedback">Feedback</string>
+    <string name="RateReview">Rate/Review</string>
+    <string name="Settings">Settings</string>
+</resources>

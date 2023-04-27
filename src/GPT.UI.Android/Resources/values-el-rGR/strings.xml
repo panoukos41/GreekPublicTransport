@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="StartPoint">Αφετηρία:</string>
+    <string name="EndPoint">Τέρμα:</string>
+    <string name="DarkTheme">Σκούρο Θέμα</string>
+    <string name="Language">Γλώσσα:</string>
+    <string name="routes">ΓΡΑΜΜΕΣ</string>
+    <string name="departures">ΑΝΑΧΩΡΙΣΕΙΣ</string>
+    <string name="general">ΓΕΝΙΚΑ</string>
+    <string name="about">ΣΧΕΤΙΚΑ</string>
+    <string name="changelog">ΑΛΛΑΓΕΣ</string>
+    <string name="lines">ΓΡΑΜΜΕΣ</string>
+    <string name="stops">ΣΤΑΣΕΙΣ</string>
+    <string name="SearchHint">Αναζήτηση...</string>
+    <string name="ClearCache">Εκκαθάριση Προσωρινής μνήμης</string>
+    <string name="Feedback">Σχόλια</string>
+    <string name="Home">Αρχική</string>
+    <string name="OasaNews">Νέα Οασα</string>
+    <string name="RateReview">Αξιολόγηση/Αναθεώρηση!</string>
+    <string name="StrikeCalendar">Ημερολόγιο Απεργιών</string>
+    <string name="Settings">Ρυθμήσεις</string>
+</resources>

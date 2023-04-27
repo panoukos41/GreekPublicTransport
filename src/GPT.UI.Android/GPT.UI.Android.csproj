@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0-android</TargetFramework>
+    <RootNamespace>GPT</RootNamespace>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <!-- Android Properties-->
+  <PropertyGroup>
+    <SupportedOSPlatformVersion>26</SupportedOSPlatformVersion>
+    <ApplicationId>com.panoukos41.GreekPublicTransport</ApplicationId>
+    <ApplicationVersion>1</ApplicationVersion>
+    <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+    <UseNativeHttpHandler>true</UseNativeHttpHandler>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ReactiveMarbles.ObservableEvents.SourceGenerator" Version="1.2.3" PrivateAssets="all" />
+    <PackageReference Include="ReactiveUI.AndroidX" Version="18.4.34" />
+    <PackageReference Include="Xamarin.Google.Android.Material" Version="1.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GPT.UI\GPT.UI.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Reference all .layout.xml files as android resources in the resources folder without the .layout and in lower case -->
+    <!-- Last solution from: https://github.com/xamarin/xamarin-android/issues/2741#issuecomment-470708668 -->
+    <None Include="**/*.layout.xml" />
+    <AndroidResource Include="**/*.layout.xml" Link="Resources\layout\$([System.String]::Copy('%(Filename)').Replace('.layout','').ToLower()).xml" />
+
+    <AndroidResource Include="**/*.values.xml" Link="Resources\values\$([System.String]::Copy('%(Filename)').Replace('.values','').ToLower()).xml" />
+    <None Include="**/*.values.xml" />
+  </ItemGroup>
+
+</Project>

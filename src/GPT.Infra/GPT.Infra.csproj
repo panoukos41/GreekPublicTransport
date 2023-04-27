@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>GPT</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flurl.Http" Version="3.2.4" />
+    <PackageReference Include="P41.NoSQLite" Version="0.2.0-beta.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GPT\GPT.csproj" />
+  </ItemGroup>
+
+</Project>

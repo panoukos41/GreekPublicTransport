@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "GPT.UI.Console": {
+      "commandName": "Project",
+      "workingDirectory": "."
+    },
+    "Oasa Download": {
+      "commandName": "Project",
+      "commandLineArgs": "oasa download -r true -s false -t true",
+      "workingDirectory": "."
+    }
+  }
+}

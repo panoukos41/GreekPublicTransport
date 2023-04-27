@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TemplatesLayout">
+        <attr name="state_default" format="reference"/>
+        <attr name="state_transition" format="reference"/>
+    </declare-styleable>
+</resources>
