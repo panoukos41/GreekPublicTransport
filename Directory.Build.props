@@ -1,0 +1,39 @@
+<Project>
+  <PropertyGroup>
+    <LangVersion>11</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Configuration Condition="$(Configuration) == ''">Debug</Configuration>
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+    <NoWarn>IDE0130;CA1416;CS1591;CA1422;CS8619;</NoWarn>
+
+    <!-- Set output paths -->
+    <SourceDir>$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), 'Directory.Build.props'))</SourceDir>
+    <Artifacts>$(SourceDir)\artifacts\$(MSBuildProjectName)</Artifacts>
+
+    <OutputPath>$(Artifacts)\bin\$(Configuration)</OutputPath>
+    <BaseOutputPath>$(Artifacts)\obj</BaseOutputPath>
+    <BaseIntermediateOutputPath>$(BaseOutputPath)</BaseIntermediateOutputPath>
+    <PackageOutputPath>$(SourceDir)nuget</PackageOutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Owners>Panagiotis Athanasiou</Owners>
+    <Authors>Panagiotis Athanasiou</Authors>
+    <Copyright>Copyright (c) 2023 Panagiotis Athanasiou</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/panoukos41/GreekPublicTransport</RepositoryUrl>
+    <PackageReleaseNotes>$(RepositoryUrl)/releases</PackageReleaseNotes>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- <None Condition="$(ProjectName) == " Include="$(SourceDir)\README.md" Pack="true" PackagePath="\" /> -->
+    <!--<SourceRoot Include="$(MSBuildThisFileDirectory)/" />-->
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- <PackageReference Include="Nerdbank.GitVersioning" Version="3.4.255" PrivateAssets="All" /> -->
+    <!-- <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" /> -->
+  </ItemGroup>
+</Project>
